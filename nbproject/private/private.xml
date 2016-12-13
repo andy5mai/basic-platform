@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/E:/git/basic-platform/public/index.php</file>
+            <file>file:/E:/git/basic-platform/core/mysql/ResultHandler.php</file>
+            <file>file:/E:/git/basic-platform/core/mysql/DBQuery.php</file>
+            <file>file:/E:/git/basic-platform/app/error/ErrorHandler.php</file>
+            <file>file:/E:/git/basic-platform/config/BasicConfig.php</file>
+            <file>file:/E:/git/basic-platform/app/testModule/Test.php</file>
+            <file>file:/E:/git/basic-platform/app/testModule/Config.php</file>
+            <file>file:/E:/git/basic-platform/core/App.php</file>
+            <file>file:/E:/git/basic-platform/app/testModule/Services.php</file>
+        </group>
+    </open-files>
+</project-private>

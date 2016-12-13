@@ -1,0 +1,23 @@
+# Protect files and directories from prying eyes.
+<FilesMatch "(\.(inc|cfg.php|pre.php|inc.php|tpl.php|class.php|info|po|sh|sql)|Entries.*|Repository|Root|Tag|Template)$">
+  Require all denied
+</FilesMatch>
+
+# Don't show directory listings for URLs which map to a directory.
+Options -Indexes
+
+# Follow symbolic links in this directory.
+Options +FollowSymLinks
+
+# Set the default handler.
+DirectoryIndex index.php
+
+# Various rewrite rules.
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteRule ^favicon.ico$ favicon.ico [L] # 不加這個CHROME 會失敗 #
+
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.*)$ index.php?_url=/$1 [L,QSA]
+</IfModule>
